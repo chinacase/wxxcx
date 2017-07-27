@@ -1,0 +1,54 @@
+/**index.wxss**/
+
+.userinfo-avatar {
+ width:180rpx;
+ height:180rpx;
+ border-radius: 50%;
+}
+
+
+
+
+.header-left{
+  width:60%;
+  margin-top:50rpx;
+  float:left;
+  font-size:40rpx;
+  
+}
+
+.header-right{
+
+
+  height:200rpx;
+  padding-left:60rpx;
+  font-size: 40rpx;
+  line-height: 400rpx;
+  
+  float:right;
+}
+
+.header{
+
+  width:80%;
+  margin:0 auto;
+}
+
+.border-bottom{
+height:30rpx;
+width:100%;
+margin:0 auto;
+border-bottom:1rpx solid #f1f1f1;
+display:inline-block;
+text-align:center;
+
+}
+.content-1{
+  margin:60rpx 0;
+  font-size:28rpx; 
+}
+
+.text{
+  
+  width:100%;
+}

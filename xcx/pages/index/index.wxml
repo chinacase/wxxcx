@@ -1,0 +1,44 @@
+<!--index.wxml-->
+
+<view class="header">
+
+   <view  class="header-left">
+      <text class="user-motto">{{headertext}}</text>
+       <text class="user-motto">{{headertext1}}</text>
+    </view>
+    <view class="header-right">
+      <image class="userinfo-avatar" src="{{ headUrl }}" background-size="cover" mode="aspectFit"></image> 
+    </view>
+    <view class="border-bottom"></view>
+
+
+    <view class="content-1">
+        <view class="text">
+             <image src="../../images/tu.jpg" style="width: 30rpx; height:30rpx; background-color: #eeeeee;"></image> 
+             <text style="margin-left:20rpx;">{{name}}</text>
+        </view>
+    </view>
+
+     <view class="content-1">
+        <view class="text">
+             <image src="../../images/dz.jpg" style="width: 30rpx; height:30rpx; background-color: #eeeeee;"></image> 
+             <text style="margin-left:20rpx;">{{wx}}</text>
+        </view>
+    </view>
+
+       <view class="content-1">
+        <view class="text">
+             <image src="../../images/mobile.png" style="width: 30rpx; height:30rpx; background-color: #eeeeee;"></image> 
+             <text style="margin-left:20rpx;">{{email}}</text>
+        </view>
+    </view>
+
+
+    <view>
+      <image src="{{ imagerUrl }}"></image>  
+    </view>
+</view>
+
+
+
+
